@@ -6,6 +6,7 @@ export default function PokemonProvider({ children }) {
   const [allPokemons, setAllPokemons] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [loading, setLoading] = useState(true);
+
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const limit = 40;

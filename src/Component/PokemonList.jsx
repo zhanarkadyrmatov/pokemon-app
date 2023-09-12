@@ -13,6 +13,7 @@ function PokemonList() {
     handleNextPage,
     currentPage,
     totalPages,
+    globalPokemons,
   } = useContext(PokemonContext);
 
   const filteredPokemons = allPokemons.filter((pokemon) =>
